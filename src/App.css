@@ -1,0 +1,172 @@
+body {
+  background-color: rgba(52, 73, 85, 1); /* replyBlue i RGBA-format (alfa = 1 for fullstendig ugjennomsiktig) */
+  color: rgba(249, 170, 51, 1); /* gul i RGBA-format (alfa = 1 for fullstendig ugjennomsiktig) */
+  font-family: 'Press Start 2P', cursive; /* Erstatt 'Press Start 2P' med den faktiske fontens navn hvis nødvendig */
+  padding: 0;
+  margin: 0;
+}
+
+.header-links {
+  display: grid;
+  place-items: center;
+  margin-top: 10%;
+  height: 5vh;
+}
+
+
+.Links{
+  display: grid;
+  place-items: center;
+  margin-top: 5px;
+  height: 20vh;
+}
+.Links a {
+  color:rgba(249, 170, 51, 1); /* Farge etter besøk */
+  text-decoration: none; /* Fjern understreking */
+  transition: color 0.3s; /* Legg til overgang for fargeendring */
+}
+
+.Links a:visited {
+  color:rgba(249, 170, 51, 1); /* Farge etter besøk */
+}
+
+.Links a:hover {
+  color: red; /* Farge når musen svever over lenken */
+}
+
+
+p {
+  margin: 16px;
+  font-size: 250%;
+  color: #ccc;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 1s ease-in-out;
+  position: relative;
+
+  &::before {
+    content: attr(data-item);
+    transition: all 1s ease-in-out;
+    color: #8254ff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+  }
+
+  &:hover {
+    &::before {
+      width: 100%;
+    }
+  }
+}
+
+
+nav {
+position: absolute;
+top: 5%;
+right: 0;
+left: 0;
+width: 319px;
+display: table;
+margin: 0 auto;
+transform: translateY(-50%);
+}
+
+nav a {
+position: relative;
+width: 33.333%;
+display: table-cell;
+text-align: center;
+color: #ccc;
+text-decoration: none;
+padding: 10px 20px;
+transition: 0.2s ease color;
+}
+
+nav a:before,
+nav a:after {
+content: "";
+position: absolute;
+border-radius: 50%;
+transform: scale(0);
+transition: 0.2s ease transform;
+}
+
+nav a:before {
+top: 0;
+left: 10px;
+width: 6px;
+height: 6px;
+}
+
+nav a:after {
+top: 5px;
+left: 18px;
+width: 4px;
+height: 4px;
+}
+
+nav a:nth-child(1):before {
+background-color: #1F1C2C;
+}
+
+nav a:nth-child(1):after {
+background-color:  #928DAB;
+}
+
+nav a:nth-child(2):before {
+background-color: #00FF00;
+}
+
+nav a:nth-child(2):after {
+background-color: #008000;
+}
+
+nav a:nth-child(3):before {
+background-color:  #001F3F;
+}
+
+nav a:nth-child(3):after {
+background-color:#0074E4 ;
+}
+
+#indicator {
+position: absolute;
+left: 5%;
+bottom: 0;
+width: 30px;
+height: 3px;
+background-color: #fff;
+border-radius: 5px;
+transition: 0.2s ease left;
+}
+
+nav a:hover {
+color: #fff;
+}
+
+nav a:hover:before,
+nav a:hover:after {
+transform: scale(1);
+}
+
+nav a:nth-child(1):hover ~ #indicator {
+background: linear-gradient(130deg,  #1F1C2C
+, #928DAB);
+}
+
+nav a:nth-child(2):hover ~ #indicator {
+left: 39%;
+background: linear-gradient(130deg, #00FF00, #008000);
+}
+
+nav a:nth-child(3):hover ~ #indicator {
+left: 70%;
+background: linear-gradient(130deg,   #001F3F, #0074E4);
+}
+
+
