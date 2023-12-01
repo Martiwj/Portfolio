@@ -13,7 +13,7 @@ function Home() {
         <section class="Links">
             <p data-item='Reach me @'>Reach me @</p>
             <a href="https://github.com/Martiwj" target="_blank">GitHub</a>
-            <a href="www.linkedin.com/in/martiwj" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/martiwj" target="_blank">LinkedIn</a>
             <a href="mailto:martiwj@uio.no" target="_blank" title="Send e-post til Martin">Mail</a>
         </section>
     </div>
