@@ -2,7 +2,6 @@ function Home() {
     return (
     <div>
     
-
         <header class="header-links">
         <nav>
             <a href="#">HOME</a>
@@ -10,13 +9,13 @@ function Home() {
             <a href="#">Projects</a>
             <div id="indicator"></div>
         </nav>
-    </header>
+        </header>
 
-    <section class="Links">
-        <p data-item='Reach me @'>Reach me @</p>
-        <a href="https://github.com/" target="_blank">GitHub</a>
-        <a href="www.linkedin.com/in/martin-wichstrom-Jorgensen" target="_blank">LinkedIn</a>
-        <a href="mailto:martiwj@uio.no" target="_blank" title="Send e-post til Martin">Mail</a>
+        <section class="Links">
+            <p data-item='Reach me @'>Reach me @</p>
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="www.linkedin.com/in/martin-wichstrom-Jorgensen" target="_blank">LinkedIn</a>
+            <a href="mailto:martiwj@uio.no" target="_blank" title="Send e-post til Martin">Mail</a>
         </section>
     </div>
     );
