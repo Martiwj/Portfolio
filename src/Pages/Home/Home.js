@@ -15,6 +15,7 @@ function Home() {
             <a href="https://github.com/Martiwj" target="_blank">GitHub</a>
             <a href="https://www.linkedin.com/in/martiwj" target="_blank">LinkedIn</a>
             <a href="mailto:martiwj@uio.no" target="_blank" title="Send e-post til Martin">Mail</a>
+            <a href="https://open.kattis.com/users/mj" target="_blank" title="_blank">Kattis</a>
         </section>
     </div>
     );
