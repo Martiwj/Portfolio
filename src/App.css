@@ -181,7 +181,7 @@ background: linear-gradient(130deg,   #001F3F, #0074E4);
 }
 
 .aboutme img {
-  max-width: 30%; /* Juster bredden etter ønske */
+  max-width: 50%; /* Juster bredden etter ønske */
   height: auto; /* La høyden justere seg automatisk for å bevare proporsjonene */
   border-radius: 8px;
   margin-bottom: 10px;
@@ -201,5 +201,5 @@ background: linear-gradient(130deg,   #001F3F, #0074E4);
 .aboutme p {
   margin-bottom: 10px;
   line-height: 1.5;
-  text-align: center;
+  text-align: start;
 }
