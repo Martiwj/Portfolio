@@ -11,7 +11,6 @@ function Home() {
           <div id="indicator"></div>
         </nav>
         </header>
-
         <section className="Links">
             <p className="animation" data-item='Reach me @'>Reach me @</p>
             <a href="https://github.com/Martiwj" target="_blank">GitHub</a>
