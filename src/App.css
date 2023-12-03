@@ -39,7 +39,7 @@ body {
 }
 
 
-p {
+.animation {
   margin: 16px;
   font-size: 250%;
   color: #ccc;
@@ -172,5 +172,25 @@ nav a:nth-child(3):hover ~ #indicator {
 left: 70%;
 background: linear-gradient(130deg,   #001F3F, #0074E4);
 }
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #ccc;
+}
 
+.aboutme h1, .aboutme p, .aboutme img {
+  width: 100%;
+  max-width: 600px; /* Juster bredden etter behov */
+}
 
+.aboutme h1, .aboutme p {
+  margin-bottom: 10px; /* Reduser bunnmargen for overskrift og avsnitt */
+  line-height: 1.5; /* Øk linjehøyden for avsnittene */
+}
+
+.aboutme img {
+  margin-top: 10px; /* Legg til toppmargen for bildet */
+  border-radius: 8px; /* Legg til avrundede hjørner om ønskelig */
+}
