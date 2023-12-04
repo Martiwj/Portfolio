@@ -188,13 +188,14 @@ background: linear-gradient(130deg,   #001F3F, #0074E4);
   margin-left: auto;
   margin-right: auto;
   max-height: 50vh;
+  
 }
 
 .aboutme .text-container {
   text-align: left;
   max-width: 600px;
-  margin-left: auto; /* Push the text to the right */
-  margin-right: auto; /* Push the text to the left */
+  margin-left: auto; 
+  margin-right: auto; 
 }
 
 .aboutme h1,
@@ -203,3 +204,12 @@ background: linear-gradient(130deg,   #001F3F, #0074E4);
   line-height: 1.5;
   text-align: start;
 }
+
+
+.comingSoon{
+  display: grid;
+  place-items: center;
+  margin-top: 5%; 
+  color: #CCC;
+}
+

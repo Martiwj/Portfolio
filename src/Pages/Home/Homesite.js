@@ -7,7 +7,7 @@ function Home() {
         <nav>
             <Link to="/">HOME</Link>
             <Link to="/about">About Me</Link>
-            <Link to="#">Projects</Link>
+            <Link to="/projects">Projects</Link>
           <div id="indicator"></div>
         </nav>
         </header>
