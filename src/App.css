@@ -173,12 +173,15 @@ left: 70%;
 background: linear-gradient(130deg,   #001F3F, #0074E4);
 }
 
+/*Css til aboutme pagen*/
+
 .aboutme {
   display: grid;
   place-items: center;
   color: #ccc;
   padding: 20px;
 }
+
 
 .aboutme img {
   max-width: 50%; /* Juster bredden etter ønske */
@@ -206,10 +209,33 @@ background: linear-gradient(130deg,   #001F3F, #0074E4);
 }
 
 
-.comingSoon{
-  display: grid;
-  place-items: center;
-  margin-top: 5%; 
-  color: #CCC;
+/*Css for projects siden*/
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
 }
 
+.project-card {
+  max-width: 550px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.project-card h2 {
+  margin-top: 10px;
+  color: #007BFF; 
+}
+
+.project-card p {
+  margin-top: 5px;
+  margin-bottom: 10;
+  color: #CCC;
+  line-height: 2;
+}
