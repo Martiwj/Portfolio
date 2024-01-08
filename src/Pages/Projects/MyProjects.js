@@ -13,6 +13,11 @@ function MyProjects() {
       description: 'I created this small and enjoyable game while learning Java GUI during the spring my 2nd semester. The game incorporates elements of classical Minesweeper logic but is slightly simplified.',
       video: 'minesweeper.mp4',
     },
+    {
+      title: 'AI Discord bot',
+      description: 'Over the Christmas break, I undertook a project to delve into APIs and networks. The idea of creating an AI Discord bot emerged from my frequent coding discussions and pair coding sessions on the Discord app with friends. I wanted a seamless way to seek coding help without leaving the app. This project allowed me to explore APIs and networks practically, enhancing the collaborative coding experience within Discord.',
+      video: 'minesweeper.mp4',
+    },
     // Add more projects as needed
   ];
 
