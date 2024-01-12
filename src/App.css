@@ -1,14 +1,13 @@
 body {
   background-color: rgba(52, 73, 85, 1); /* replyBlue i RGBA-format (alfa = 1 for fullstendig ugjennomsiktig) */
   color: rgba(249, 170, 51, 1); /* gul i RGBA-format (alfa = 1 for fullstendig ugjennomsiktig) */
-  font-family: 'Press Start 2P', cursive; /* Erstatt 'Press Start 2P' med den faktiske fontens navn hvis nødvendig */
   padding: 0;
   margin: 0;
 }
 
 @font-face {
-  font-family: 'Press Start 2P';
-  src: url('PressStart2P-Regular.ttf') format('truetype');
+  font-family: 'Libre Bodoni', serif;
+  src: url('DMSerifDisplay-Regular.ttf') format('truetype');
 }
 
 .header-links {
@@ -230,12 +229,12 @@ background: linear-gradient(130deg,   #001F3F, #0074E4);
 
 .project-card h2 {
   margin-top: 10px;
-  color: #007BFF; 
+  color:  #9f8170; 
 
 }
 
 a{
-  color: #007BFF;  
+  color: #9f8170;  
 }
 
 .project-card p {
