@@ -173,7 +173,7 @@ left: 70%;
 background: linear-gradient(130deg,   #001F3F, #0074E4);
 }
 
-/*Css til aboutme pagen*/
+/* Css til aboutme siden */
 
 .aboutme {
   display: grid;
@@ -209,7 +209,7 @@ background: linear-gradient(130deg,   #001F3F, #0074E4);
 }
 
 
-/*Css for projects siden*/
+/* Css for projects siden */
 
 .project-container {
   display: flex;
@@ -231,6 +231,11 @@ background: linear-gradient(130deg,   #001F3F, #0074E4);
 .project-card h2 {
   margin-top: 10px;
   color: #007BFF; 
+
+}
+
+a{
+  color: #007BFF;  
 }
 
 .project-card p {

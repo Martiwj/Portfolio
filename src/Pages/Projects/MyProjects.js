@@ -9,14 +9,16 @@ function MyProjects() {
       video: 'gof.mp4', 
     },
     {
-      title: 'MineSweeper(ish)',
+      title: 'GemHunt',
       description: 'I created this small and enjoyable game while learning Java GUI during the spring my 2nd semester. The game incorporates elements of classical Minesweeper logic but is slightly simplified.',
       video: 'minesweeper.mp4',
+      githubLink: 'https://github.com/Martiwj/Gemhunt.git', 
     },
     {
       title: 'AI Discord bot',
       description: 'Over the Christmas break, I undertook a project to delve into APIs and networks. The idea of creating an AI Discord bot emerged from my frequent coding discussions and pair coding sessions on the Discord app with friends. I wanted a seamless way to seek coding help without leaving the app. This project allowed me to explore APIs and networks practically, enhancing the collaborative coding experience within Discord.',
-      video: 'minesweeper.mp4',
+      video: 'cookbot.mp4',
+      githubLink: 'https://github.com/Martiwj/Discord-AI-Bot.git', 
     },
     // Add more projects as needed
   ];
@@ -42,7 +44,15 @@ function MyProjects() {
               </video>
             )}
             {project.image && <img src={project.image} alt={project.title} />}
-            {project.title && <h2>{project.title}</h2>}
+            {project.title && (
+              <>
+                <h2>
+                  <a href={project.githubLink} target="blank" rel="noopener noreferrer">
+                    {project.title}
+                  </a>
+                </h2>
+              </>
+            )}
             {project.description && <p>{project.description}</p>}
           </div>
         ))}
