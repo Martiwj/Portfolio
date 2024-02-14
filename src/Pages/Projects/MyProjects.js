@@ -24,6 +24,7 @@ function MyProjects() {
       title: "Summify", 
       description: "Summify is a personal project I developed to streamline the process of extracting key information from online articles and web content. By leveraging web scraping techniques and the OpenAI API, Summify allows users to generate quick summaries by simply inputting a URL.",
       video: 'summify.mp4',
+      githubLink: 'https://github.com/Martiwj/Summify', 
     }, 
     // Add more projects as needed
   ];
