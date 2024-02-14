@@ -49,7 +49,7 @@ function MyProjects() {
                 Your browser does not support the video tag.
               </video>
             )}
-            {project.image && <img src={project.image} alt={project.title} />}
+            {project.image && <img src={project.image} alt={project.title} width="100%" height="auto" />}
             {project.title && (
               <>
                 <h2>
