@@ -3,11 +3,15 @@ body {
   color: rgba(249, 170, 51, 1); /* gul i RGBA-format (alfa = 1 for fullstendig ugjennomsiktig) */
   padding: 0;
   margin: 0;
+  font-family: 'Myfont';
 }
 
 @font-face {
-  font-family: 'Libre Bodoni', serif;
-  src: url('DMSerifDisplay-Regular.ttf') format('truetype');
+  font-family: 'Myfont';
+  src: url('fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+  /* Add additional src declarations for different font file formats if necessary */
+  font-weight: normal;
+  font-style: normal;
 }
 
 .header-links {
@@ -170,76 +174,4 @@ background: linear-gradient(130deg, #00FF00, #008000);
 nav a:nth-child(3):hover ~ #indicator {
 left: 70%;
 background: linear-gradient(130deg,   #001F3F, #0074E4);
-}
-
-/* Css til aboutme siden */
-
-.aboutme {
-  display: grid;
-  place-items: center;
-  color: #ccc;
-  padding: 20px;
-}
-
-
-.aboutme img {
-  max-width: 50%; /* Juster bredden etter ønske */
-  height: auto; /* La høyden justere seg automatisk for å bevare proporsjonene */
-  border-radius: 8px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 50vh;
-  
-}
-
-.aboutme .text-container {
-  text-align: left;
-  max-width: 600px;
-  margin-left: auto; 
-  margin-right: auto; 
-}
-
-.aboutme h1,
-.aboutme p {
-  margin-bottom: 10px;
-  line-height: 1.5;
-  text-align: start;
-}
-
-
-/* Css for projects siden */
-
-.project-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 20px;
-}
-
-.project-card {
-  max-width: 550px;
-  margin: 10px;
-  padding: 15px;
-  border: 1px solid #CCC;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-}
-
-.project-card h2 {
-  margin-top: 10px;
-  color:  #9f8170; 
-
-}
-
-a{
-  color: #9f8170;  
-}
-
-.project-card p {
-  margin-top: 5px;
-  margin-bottom: 10;
-  color: #CCC;
-  line-height: 2;
 }

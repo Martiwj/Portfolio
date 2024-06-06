@@ -1,13 +1,17 @@
 import { Link } from 'react-router-dom';
+import './AboutMe.css';
 
 function AboutMe() {
   return (
     <div>
+      
+
       <header className="header-links">
         <nav>
           <Link to="/">HOME</Link>
           <Link to="/about">About Me</Link>
           <Link to="/projects">Projects</Link>
+        
           <div id="indicator"></div>
         </nav>
       </header>
