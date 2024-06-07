@@ -22,7 +22,7 @@ function AboutMe() {
           <p>
             I am studying for a bachelor's degree in informatics currently in my 2nd year at the University of Oslo. I have a strong passion for algorithms and data structures and love to challenge myself with intricate problem-solving.
           </p>
-          <p>Besides my studies, I am also active in the student community. I am currently the financial manager in LIST, the student association for informatics and language technology. Additionally, I am the vice president of MAPS (Mathematics Algorithms and Programming for Students).</p>
+          <p>Besides my studies, I am also active in the student community. I am currently the financial manager in LIST, the student association for informatics and language technology. Additionally, I am the vice leader of MAPS (Mathematics Algorithms and Programming for Students).</p>
         </div>
         <img src="/portrett.png" alt="" />
       </div>

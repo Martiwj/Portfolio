@@ -27,6 +27,13 @@ function MyProjects() {
       video: 'summify.mp4',
       githubLink: 'https://github.com/Martiwj/Summify', 
     }, 
+    {
+      title: "RetrivalChatbot", 
+      description: "The RetrievalChatbot was originally a small school project I had. I enjoyed working on it, so I continued to develop it further by adding more datasets, a nice GUI, and a CLI for using the bot. Currently, it's a Marvel-based chatbot that utilizes dialogues from all 23 MCU movies. The bot uses TF-IDF vectors and compares the TF-IDF input vector from the user with the most similar vector from the dataset and gives you a response based on that. ",
+      image: 'chatbot.png', 
+      githubLink: 'https://github.com/Martiwj/RetrievalChatbot',
+
+    }
     // Add more projects as needed
   ];
 

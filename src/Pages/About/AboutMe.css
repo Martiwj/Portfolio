@@ -24,7 +24,9 @@
     margin-right: auto; 
   }
   
-  .aboutme h1,
+  .aboutme h1{
+    margin-top: 0%;
+  }
   .aboutme p {
     margin-bottom: 10px;
     line-height: 1.5;
