@@ -1,34 +1,45 @@
+h1 {
+  display: grid;
+  position: relative;
+  place-items: center;
+}
+
 .aboutme {
-    display: grid;
-    place-items: center;
-    color: #ccc;
-    padding: 20px;
-  }
-  
-  
-  .aboutme img {
-    max-width: 50%; /* Juster bredden etter ønske */
-    height: auto; /* La høyden justere seg automatisk for å bevare proporsjonene */
-    border-radius: 8px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 50vh;
-    
-  }
-  
-  .aboutme .text-container {
-    text-align: left;
-    max-width: 600px;
-    margin-left: auto; 
-    margin-right: auto; 
-  }
-  
-  .aboutme h1{
-    margin-top: 0%;
-  }
-  .aboutme p {
-    margin-bottom: 10px;
-    line-height: 1.5;
-    text-align: start;
-  }
+  display: grid;
+  place-items: center;
+  color: #ccc;
+  padding: 20px;
+}
+
+.aboutme img {
+  max-width: 50%; 
+  height: auto; 
+  border-radius: 8px;
+  margin-bottom: 10px;
+  max-height: 45vh;
+}
+
+.text-subcontainer img {
+  float: right;
+  margin-right: 20px;
+
+  margin-bottom: 10px; 
+}
+
+.aboutme .text-container {
+  text-align: right;
+  max-width: 600px;
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.aboutme h1 {
+  margin-top: 0%;
+}
+
+.aboutme p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  text-align: start;
+}
+

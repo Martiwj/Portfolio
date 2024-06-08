@@ -7,30 +7,30 @@ function MyProjects() {
     {
       title: 'Game Of Life',
       description: 'This is a Java implementation of John Conways Game of Life. The project was a part of the IN1010 course, where we had full freedom to choose how we wanted to implement and design it. It was a really fun project where I learned a lot about GUI in Java.',
-      video: 'gof.mp4', 
+      video: '/projects/gof.mp4', 
     },
     {
       title: 'GemHunt',
       description: 'I created this small and enjoyable game while learning Java GUI during the spring my 2nd semester. The game incorporates elements of classical Minesweeper logic but is slightly simplified.',
-      video: 'minesweeper.mp4',
+      video: '/projects/minesweeper.mp4',
       githubLink: 'https://github.com/Martiwj/Gemhunt.git', 
     },
     {
       title: 'AI Discord bot',
       description: 'Over the Christmas break, I undertook a project to delve into APIs and networks. The idea of creating an AI Discord bot emerged from my frequent coding discussions and pair coding sessions on the Discord app with friends. I wanted a seamless way to seek coding help without leaving the app. This project allowed me to explore APIs and networks practically, enhancing the collaborative coding experience within Discord.',
-      video: 'cookbot.mp4',
+      video: '/projects/cookbot.mp4',
       githubLink: 'https://github.com/Martiwj/Discord-AI-Bot.git', 
     },
     {
       title: "Summify", 
       description: "Summify is a personal project I developed to streamline the process of extracting key information from online articles and web content. By leveraging web scraping techniques and the OpenAI API, Summify allows users to generate quick summaries by simply inputting a URL.",
-      video: 'summify.mp4',
+      video: '/projects/summify.mp4',
       githubLink: 'https://github.com/Martiwj/Summify', 
     }, 
     {
       title: "RetrivalChatbot", 
       description: "The RetrievalChatbot was originally a small school project I had. I enjoyed working on it, so I continued to develop it further by adding more datasets, a nice GUI, and a CLI for using the bot. Currently, it's a Marvel-based chatbot that utilizes dialogues from all 23 MCU movies. The bot uses TF-IDF vectors and compares the TF-IDF input vector from the user with the most similar vector from the dataset and gives you a response based on that. ",
-      image: 'chatbot.png', 
+      image: '/projects/chatbot.png', 
       githubLink: 'https://github.com/Martiwj/RetrievalChatbot',
 
     }
