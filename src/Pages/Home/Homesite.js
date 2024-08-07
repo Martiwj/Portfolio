@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
     return (
+  
     <div>
         <header className="header-links">
         <nav>

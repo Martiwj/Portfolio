@@ -23,6 +23,7 @@ h1 {
   margin-right: 5px;
   margin-left: 20px;
   margin-bottom: 10px; 
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .aboutme .text-container {
