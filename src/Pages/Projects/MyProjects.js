@@ -38,6 +38,14 @@ function MyProjects() {
       image: '/projects/chatbot.png',
       githubLink: 'https://github.com/Martiwj/RetrievalChatbot',
     },
+
+    {
+      title: "Peoply",
+      description: "Peoply is an event calendar for all student associations at the Department of Informatics. We have over 1,000 active users. Peoply was originally created by Decidables, but we have taken over the operation and further development of the service through MAPS (Mathematics, Algorithms, and Programming for Students). I am part of the team that continues to further develop the service.", 
+      technologies: ['React', 'Typescript', 'Nest', 'Docker', 'Node.js', 'HTML/css', 'Prisma'], 
+      image: '/peoply.png',
+      githubLink: 'https://peoply.app'
+    }
     // new projects here
   ];
 
