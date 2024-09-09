@@ -61,7 +61,7 @@ function MyProjects() {
       </header>
 
       <div className='project-container'>
-        {projects.map((project, index) => (
+        {projects.slice().reverse().map((project, index) => (
           <div key={index} className="project-card">
             {project.video && (
               <video width="100%" height="auto" controls >

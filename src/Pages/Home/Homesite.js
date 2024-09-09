@@ -20,8 +20,10 @@ function Home() {
             <a href="https://open.kattis.com/users/mj" target="_blank" rel="noreferrer">Kattis</a>
             <a href="https://wakatime.com/@HissigKoder?rank=me&page=1&board=b98c1a35-338e-4e50-90ec-4d1c1bdf7e80" target="_blank" rel="noreferrer">WakaTime</a>
         </section>
+        
     </div>
+
     );
   }
 export default Home;  
-  
+
