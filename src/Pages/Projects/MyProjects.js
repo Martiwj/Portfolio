@@ -42,7 +42,7 @@ function MyProjects() {
     {
       title: "Peoply",
       description: "Peoply is an event calendar for all students associations at the Department of Informatics. We have over 1,000 active users. Peoply was originally created by Decidables, but we have taken over the operation and further development of the service through MAPS (Mathematics, Algorithms, and Programming for Students). I am part of the team that continues to further develop the service.", 
-      technologies: ['React', 'Typescript', 'Nest', 'Docker', 'Node.js', 'HTML/css', 'Prisma'], 
+      technologies: ['React', 'Typescript', 'Nest', 'Docker', 'Node.js', 'HTML/Css', 'Prisma'], 
       image: '/projects/peoply.png',
       githubLink: 'https://peoply.app'
     }
